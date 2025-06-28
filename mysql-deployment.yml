@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: mysql  #Debe ser la misma que la URL de application.properties
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
