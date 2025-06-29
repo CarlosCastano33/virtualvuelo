@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: virtualvuelo-app
-          image: virtualvuelo-app:latest
-          imagePullPolicy: Never
+          image: carloscastano33/virtualvuelo-app:latest
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8089
           env:
